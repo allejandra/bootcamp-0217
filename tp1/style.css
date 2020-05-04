@@ -1,0 +1,135 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+font-family: 'Roboto Slab', serif;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+.titulo h1 {
+    width: 14;
+    height: 14;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+    color: #fff;
+}
+
+.titulo {
+    margin-top: 0;
+    list-style: none;
+    background-color: #21d4fd;
+    background-image: linear-gradient(90deg, #21d4fd 0%, #b724ff 100%);
+    padding: 10;
+    overflow: hidden;
+    }
+.navbar {
+    margin-top: 0;
+    list-style: none;
+    background-color: #21d4fd;
+    background-image: linear-gradient(90deg, #21d4fd 0%, #b724ff 100%);
+    padding: 10;
+    overflow: hidden;
+    }
+
+    .navbar li {
+        float: right;
+    }
+    
+    .navbar li a {
+        font-size: 1.2rem;
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        padding: 15px;
+    }        
+    
+    .buscador {    
+        font-size: 2rem;
+        left: 600px;
+
+    }
+    
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+    .item{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .item {
+        border: 1px solid black;
+        background-attachment: #21d4fd;
+        background-image: linear-gradient(90deg, #21d4fd 0%, #b724ff 109%);  
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        width: 300px
+    }
+    
+    .box1 {
+        position: absolute;
+        left: 30px;
+    }   
+
+    .box2 {
+        position: absolute;
+        top: 365px;
+        left: 240px;
+    }   
+
+    .box3 {
+        position: absolute;
+        top: 365px;
+        left: 470px;
+    }   
+
+    .box4 {
+        position: absolute;
+        top: 365px;
+        left: 695px;
+    }   
+    
+    .box5 {
+        position: absolute;
+        top: 365px;
+        left: 920px;
+    }   
+
+    .box6 {
+        position: absolute;
+        top: 365px;
+        left: 1145px;
+    }   
+    
+    .contenedor2 {
+        border: 1px solid black;
+        background-attachment: #21d4fd;
+        background-image: linear-gradient(90deg, #21d4fd 0%, #b724ff 109%);  
+        padding: 5px;
+        margin: 5x;
+        border-radius: 5px;
+        width: 200px;
+        position: absolute;
+        left: 600px;
+    }
+
+    .contenedor2 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+
+    .contenedor2 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
